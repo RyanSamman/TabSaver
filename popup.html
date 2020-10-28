@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TabSaver</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<style>
+	body {
+		width: 400px;
+	}
+
+	.list-group {
+		max-height: 400px;
+		margin-bottom: 10px;
+		overflow: auto;
+		overflow-x: hidden;
+	}
+
+	.red-svg {
+		width: 20px;
+		height: 20px;
+		filter: invert(18%) sepia(73%) saturate(4266%) hue-rotate(345deg) brightness(83%) contrast(97%);
+	}
+
+	.circle-button {
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+		padding: 5px 10px 15px 10px;
+	}
+
+	.list-group-item {
+		align-items: center;
+		height: 50px;
+	}
+</style>
+
+<body>
+	<div class="card w-300 border-primary rounded-0">
+		<div class="card-body">
+			<h5 class="card-title">Tab Saver 📝</h5>
+			<div id="listRoot" class="list-group mt-3">
+			</div>
+			<button id="addAll" type="button" class="btn btn-primary mt-2">Save All Tabs</button>
+			<button id="addCurrent" type="button" class="btn btn-primary mt-2">Save Current</button>
+			<button id="deleteAll" type="button" class="btn btn-danger mt-2">Clear List</button>
+		</div>
+	</div>
+</body>
+<script src="popup.js"></script>
+
+</html>
