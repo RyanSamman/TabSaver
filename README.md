@@ -5,5 +5,5 @@ I always had tabs which I wasn't ready to read or use, so I kept them open for f
 
 One day, I had enough, and I created this extention to help me manage my important tabs.
 
-<img style="center" src="./TabSaver.gif" alt="Sample of Tab Saver">
+<img align="center" src="./TabSaver.gif" alt="Sample of Tab Saver">
 
