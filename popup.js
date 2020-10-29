@@ -63,7 +63,7 @@ function createListElement({ title = 'MISSING TITLE', url = '#' }, index) {
 
 	template.innerHTML = (
 		'<div class="list-group-item d-flex justify-content-between">'
-		+ '<a class="flex-grow-1" target="_blank href="#"></a>'
+		+ '<a class="flex-grow-1" target="_blank" href="#"></a>'
 		+ '<button class="btn btn-light circle-button"><img class="red-svg" src="delete.svg" alt="trash svg"></button>'
 		+ '</div>'
 	)
